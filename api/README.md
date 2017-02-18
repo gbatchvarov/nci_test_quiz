@@ -26,5 +26,9 @@ Run
 Run
 <code>java -jar target\api-0.0.1-SNAPSHOT.jar</code>
 
+Or using maven
+
+<code>mvn spring-boot:run</code>
+
 ## Use the services
 http://localhost:8080/swagger-ui.html
