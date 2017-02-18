@@ -32,6 +32,14 @@ public class TopicCategoryInfo implements Serializable {
 		createDate = category.getCreateDate();
 	}
 
+	public TopicCategoryInfo(int id, String name, String description, Date createDate) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.createDate = createDate;
+	}
+
 	public int getId() {
 		return id;
 	}
